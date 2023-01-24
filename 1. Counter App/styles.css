@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+ 
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.display{
+  text-align: center;
+}
+
+h1{
+  margin-bottom: 15px;
+  color: white;
+}
+
+.count{
+  color: #82f121 ;
+  font-size: 35px;
+}
+/* .counterHeading{
+  font-size: 29px;
+} */
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter{
+  height: 200px;
+  width: 400px;
+  background-color: #005490;
+  padding: 20px;
+}
+
+hr{
+  color:white;
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  margin-top: 15px;
+  height: 35px;
+  width: 10rem;
+  border-radius: 5px;
+  border: none;
+  color: white;
+
+}
+
+.btn1{
+ background-color: #db6400;
+ margin-right: 10px;
+}
+.btn2{
+  background-color:white ;
+  color: black;
+}
+.btn3{
+  background-color:green ;
+  margin-left: 10px;
+}
